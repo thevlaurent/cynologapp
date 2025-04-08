@@ -1,20 +1,16 @@
 {
-  "name": "cynolog-app",
+  "name": "cynologapp",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1",
-    "react-hook-form": "^7.45.0",
-    "html2pdf.js": "^0.10.1"
+    "vite": "^4.0.0",  // Assure-toi que Vite est bien dans les dépendances
+    // Ajoute les autres dépendances ici
   },
   "devDependencies": {
-    "vite": "^5.0.0",
-    "tailwindcss": "^3.4.1"
+    // Si tu utilises des dépendances de développement, comme des plugins pour Vite, ajoute-les ici
   }
 }
